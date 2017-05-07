@@ -64,11 +64,14 @@ nav a {
   height: 300px;
   width: 300px;
   display: inline-block;
-  text-align: center;
 }
 div.main-img {
   background-image: url(../Images/img-story-main.png);
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
@@ -79,6 +82,9 @@ div.main-img {
 div.earth-img {
   background-image: url(../Images/img-story-2.png);
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -88,6 +94,9 @@ div.earth-img {
 div.camera-img {
   background-image: url(../Images/img-story-3.png);
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -102,6 +111,8 @@ div.camera-img {
 div.cats-img {
   background-image: url(../Images/img-story-1.png);
   display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
